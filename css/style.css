@@ -109,4 +109,9 @@ body {
   border: .1rem solid;
   padding: 0.5rem 1.5rem;
   border-radius: 1.25rem;
+  transition: .4s linear;
+}
+
+.product-button:hover {
+  transform: scale(1.06)
 }
