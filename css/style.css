@@ -17,6 +17,7 @@
 
 body {
   background: var(--black);
+  transition: 0.6s linear;
 }
 
 .product-card {
