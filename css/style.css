@@ -37,7 +37,7 @@ body {
 }
 
 .product-card p {
-  font-size: .85rem;
+  font-size: .92rem;
   color: var(--secondary);
   margin-top: .6rem;
 }
@@ -57,9 +57,9 @@ body {
 }
 
 .product-colors span {
-  width: .8rem;
-  height: .8rem;
-  margin: 0 .6rem;
+  width: .875rem;
+  height: .875rem;
+  margin: 0 .625rem;
   border-radius: 50%;
   cursor: pointer;
   position: relative;
@@ -79,4 +79,15 @@ body {
 
 .gold {
   background: var(--gold);
+}
+
+.product-colors .active::after {
+  content: "";
+  width: 1.1rem;
+  height: 1.1rem;
+  border: .2rem solid #8888;
+  position: absolute;
+  border-radius: 50%;
+  left: -0.3rem;
+  top: -0.3rem
 }
