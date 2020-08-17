@@ -49,6 +49,7 @@ body {
   height: 12.5rem;
   background-size: cover;
   background-position: center;
+  transition: .6s linear
 }
 
 .product-colors {
