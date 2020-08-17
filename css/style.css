@@ -49,3 +49,34 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.product-colors {
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.product-colors span {
+  width: .8rem;
+  height: .8rem;
+  margin: 0 .6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+.black {
+  background: var(--black);
+}
+
+.blue {
+  background: var(--blue);
+}
+
+.gray {
+  background: var(--gray);
+}
+
+.gold {
+  background: var(--gold);
+}
