@@ -2,10 +2,8 @@
 
 
 ### Utilizados:
-HTML &amp; CSS
-
-JavaScript
-
+HTML &amp; CSS<br>
+JavaScript<br>
 Jquery ver 3.4.1
 
 
