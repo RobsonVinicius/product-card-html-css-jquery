@@ -111,10 +111,40 @@ body {
   padding: 0.5rem 1.5rem;
   border-radius: 1.25rem;
   text-transform: uppercase;
-  transition: .4s linear;
-  
+  transition: .4s linear;  
 }
 
 .product-button:hover {
   transform: scale(1.06)
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    width: 18rem;
+    padding: 1.7rem;   
+    
+    margin-top: 1rem;
+  }
+
+  .product-card h1 {
+    font-size: 1.3rem;
+  }
+
+  .product-card p {
+    font-size: .9rem;   
+    margin-top: .8rem; /* .6rem */
+  }
+  
+  .product-pic {  
+    height: 14rem;    
+  }
+
+  .product-price {
+    font-size: 1rem;
+  }
+
+  .product-button {    
+    padding: 0.3rem 1rem;    
+  }  
+  
 }
