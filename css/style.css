@@ -1,6 +1,6 @@
 :root {
   --primary: #fff;
-  --secondary: #bbb;
+  --secondary: #b6b5b5;
   --black: #2d3436;
   --blue: #1e3799;
   --gray: #778ca3;
@@ -32,21 +32,21 @@ body {
 }
 
 .product-card h1 {
-  font-size: 1.6rem;
-  margin-bottom: .25rem;
-  line-height: 1.5rem
+  font-size: 1.7rem;  
+  line-height: 1.8rem;  
 }
 
 .product-card p {
-  font-size: 1.1rem;
+  font-size: 1.25rem;  
   color: var(--secondary);
-  margin-top: .8rem; /* .6rem */
+  margin-top: .7rem; /* .6rem */  
+  letter-spacing: 0.05rem;
 }
 
 .product-pic {
   background-image: url(../images/1.png);
   width: 100%;
-  height: 20rem; /* 15rem */
+  height: 19rem; /* 15rem */
   background-size: cover;
   background-position: center;
   transition: .6s linear
@@ -101,17 +101,20 @@ body {
 
 .product-price {
   color: var(--black);
-  font-size: 1.4rem;
+  font-size: 1.55rem;
+  font-weight: bold;
 }
 
 .product-button {
   margin-left: auto;
   color: var(--black);
   border: .1rem solid;
-  padding: 0.5rem 1.5rem;
-  border-radius: 1.25rem;
+  padding: 0.6rem 0.5rem;
+  border-radius: .5rem;
   text-transform: uppercase;
-  transition: .4s linear;  
+  font-size: 1.25rem;
+  font-weight: bold;
+  transition: .2s linear;  
 }
 
 .product-button:hover {
@@ -121,17 +124,16 @@ body {
 @media (max-width: 768px) {
   .product-card {
     width: 18rem;
-    padding: 1.7rem;   
-    
-    margin-top: 1rem;
+    padding: 1.7rem;    
   }
 
   .product-card h1 {
     font-size: 1.3rem;
+    line-height: 1.5rem;  
   }
 
   .product-card p {
-    font-size: .9rem;   
+    font-size: .93rem;   
     margin-top: .8rem; /* .6rem */
   }
   
@@ -140,11 +142,12 @@ body {
   }
 
   .product-price {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .product-button {    
-    padding: 0.3rem 1rem;    
+    padding: 0.6rem 0.4rem;  
+    font-size: 0.93rem;  
   }  
   
 }
