@@ -3,7 +3,9 @@
 
 ### Utilizados:
 HTML &amp; CSS
+
 JavaScript
+
 Jquery ver 3.4.1
 
 
